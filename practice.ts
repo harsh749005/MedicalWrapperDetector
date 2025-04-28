@@ -79,3 +79,16 @@ interface Admin extends User{}
 function bhdc(obj:Admin){
     obj.email
 }
+
+// 2 interface of same name get merged into one
+interface olx {
+    name:string
+}
+
+interface olx {
+    email:string
+}
+
+function abcd2(obj: olx){
+    obj.email
+}
