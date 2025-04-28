@@ -103,3 +103,24 @@ function io(obj:value){
 
 }
 io("pinekal")
+
+
+// Union and Intersection Types
+
+let o:string | null ; // union
+
+type User1 = {
+    name: string,
+    email:string,
+}
+
+type Admin2 = User1 & {
+    getDetails(user:string):void
+}
+
+function fg(A:Admin2){
+    A.email
+}
+// type won't accept this
+// type num = number;
+// type num = string;
