@@ -71,3 +71,11 @@ function account(obj:User){
 }
 
 account({name:"harsh",email:"sd",password:"sdf"})
+
+
+// extending interface
+interface Admin extends User{}
+
+function bhdc(obj:Admin){
+    obj.email
+}
