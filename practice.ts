@@ -92,3 +92,14 @@ interface olx {
 function abcd2(obj: olx){
     obj.email
 }
+
+// Type aliases 
+
+type value = number | string |boolean;
+
+let av : value = 12;
+
+function io(obj:value){
+
+}
+io("pinekal")
