@@ -59,11 +59,11 @@ function kgit(a:number,b:number):void{}
 
 // interface kaa hai shapes ko define krna shape yani ki , maan lo aap ne koi object bnaaya toh uas me aap kya-kya define kr rhae ho
 // some what schema
-
+//? represent optional  
 interface User{
     name:string,
     email:string,
-    password:string
+    password?:string
 }
 
 function account(obj:User){
