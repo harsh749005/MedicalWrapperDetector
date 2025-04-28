@@ -121,6 +121,10 @@ type Admin2 = User1 & {
 function fg(A:Admin2){
     A.email
 }
+
+// type kaa kam hotaa hai merger , unoin yaa fir single type bnaa naa
 // type won't accept this
 // type num = number;
 // type num = string;
+
+// or object kahi pe bnaa hai uaski shakal bnaa ni hai toh uasme interface use hota hai
